@@ -2,40 +2,46 @@
     border-spacing: 10px;
     border: 1px solid rgb(100, 207, 78); 
 } */
-h1{
+h1 {
     font-style: oblique;
 }
-h3{
+
+h3 {
     font-style: italic;
 }
-form{
-    margin:0px;
+
+form {
+    margin: 0px;
     width: 400px;
     padding: 1em;
     border: 1px solid rgb(218, 44, 44);
     border-radius: 2em;
 }
-form li{
+
+form li {
     list-style-type: none;
     margin-top: 1em;
     width: 50px;
 }
-input,textarea{
+
+input,
+textarea {
     width: 300px;
 }
-label{
-    font-family:Arial, Helvetica, sans-serif;
+
+label {
+    font-family: Arial, Helvetica, sans-serif;
     font-size: medium;
 }
-#button{
+
+#button {
     padding-left: 90px;
 
 }
+
 button {
     /* This extra margin represent roughly the same space as the space
        between the labels and their text fields */
     margin-left: 0.5em;
-    
-  }
 
-  
+}
